@@ -296,3 +296,78 @@
         margin-bottom: 20px;
     }
 }
+
+/* --------------------- Styling for Contact --------------------- */
+
+span{
+    font-size: 16px;
+    color: #774A32;
+}
+
+span:hover{
+    color:#C98832;
+}
+
+iframe{
+    width: 100%;
+    height: 25vh; /* Adjusts 25% of the viewport height */
+}
+
+.text-formatting{
+    color: #774A32;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* Details (Left Side) */
+.contact-details {
+    flex: 1;
+    font-size: 16px;
+    color: #774A32;
+}
+
+/* Contact Form (Right Side) */
+.contact-form {
+    flex: 1;
+    width:100%;
+    border: 2px solid #C98832; /* Border for the form */
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #F9F5F2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Input fields styling */
+.contact-form .form-control {
+    border: 1px solid #774A32;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Focus effect */
+.contact-form .form-control:focus {
+    border-color: #C98832;
+    outline: none;
+    box-shadow: 0 0 5px rgba(200, 136, 50, 0.5);
+}
+
+/* Button styling */
+.contact-form button {
+    background-color: #774A32;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #A86A2F;
+}
