@@ -1,112 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trader's Cafe | Home</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
-</head>
-<body>
 
-    <img src="assets/logo.jpg" alt="Trader's Cafe Logo" class="logo">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trader's Cafe | Home</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    </head>
+    <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Trader's Cafe</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item" id="productsMenu">
-                        <a class="nav-link">Products <i class="fas fa-caret-down" id="caretIcon"></i></a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                </ul>
-                <div class="social-media-icons">
-                    <a href="https://web.facebook.com/profile.php?id=61567307635803" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/traderscafe.ph/?fbclid=IwZXh0bgNhZW0CMTAAAR1A9D2xUyyGvjgZyuEYSGsgIitZS07cTqW5fGht48DuA9S9r1Jrmfuycc0_aem_aqW-C-KPXB4JbGjLgXh-qA#" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.tiktok.com/@traderscafe.ph?fbclid=IwZXh0bgNhZW0CMTAAAR2OASi-kF_hbCYVOmfZkKwtxU4G_kGxquYnfoC8EfPp2BejpLNarKF6FVU_aem_aryTmt2K93jRCdeFEt1mKQ" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <img src="assets/logo.jpg" alt="Trader's Cafe Logo" class="logo">
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Trader's Cafe</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item" id="productsMenu">
+                            <a class="nav-link">Products <i class="fas fa-caret-down" id="caretIcon"></i></a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                    <div class="social-media-icons">
+                        <a href="https://web.facebook.com/profile.php?id=61567307635803" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/traderscafe.ph/?fbclid=IwZXh0bgNhZW0CMTAAAR1A9D2xUyyGvjgZyuEYSGsgIitZS07cTqW5fGht48DuA9S9r1Jrmfuycc0_aem_aqW-C-KPXB4JbGjLgXh-qA#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@traderscafe.ph?fbclid=IwZXh0bgNhZW0CMTAAAR2OASi-kF_hbCYVOmfZkKwtxU4G_kGxquYnfoC8EfPp2BejpLNarKF6FVU_aem_aryTmt2K93jRCdeFEt1mKQ" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-<!-- Bottom Navba r-->
-<nav class="navbar navbar-expand-lg navbar-dark bottom-navbar">
-    <div class="container">
-        <ul class="navbar-nav mx-auto">
-            <li class="nav-item"><a class="nav-link" href="coffee-drinks.html" id="coffeeDrinks">Coffee Drinks</a></li>
-            <li class="nav-item"><a class="nav-link" href="non-coffee-drinks.html" id="nonCoffeeDrinks">Non-Coffee Drinks</a></li>
-            <li class="nav-item"><a class="nav-link" href="rice-meals.html" id="riceMeals">Rice Meals</a></li>
-            <li class="nav-item"><a class="nav-link" href="snacks.html" id="snacks">Snacks</a></li>
-            <li class="nav-item"><a class="nav-link" href="others.html" id="others">Others</a></li>
-        </ul>
-    </div>
-</nav>
-
-    <div id="categoryImages">
-        <img src="assets/coffee-drinks.jpg" class="category-image" id="coffeeDrinksImage">
-        <img src="assets/non-coffee-drinks.jpg" class="category-image" id="nonCoffeeDrinksImage">
-        <img src="assets/rice-meals.jpg" class="category-image" id="riceMealsImage">
-        <img src="assets/snacks.jpg" class="category-image" id="snacksImage">
-        <img src="assets/others.jpg" class="category-image" id="othersImage">
-    </div>
+        <!-- Bottom Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bottom-navbar">
+            <div class="container">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="coffee-drinks.html" id="coffeeDrinks">Coffee Drinks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="non-coffee-drinks.html" id="nonCoffeeDrinks">Non-Coffee Drinks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="rice-meals.html" id="riceMeals">Rice Meals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="snacks.html" id="snacks">Snacks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="others.html" id="others">Others</a></li>
+                </ul>
+            </div>
+        </nav>
 
 
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <!-- Content -->
+        <!-- Hero Section with Carousel -->
+        <section id="hero">
+            <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
 
-	<footer class="footer">
-		<div class="container text-center">
-			<div class="row">
-				<div class="col-md-4">
-					<h5>Contact</h5>
-					<p>Email: traderscafe.ph@gmail.com</p>
-					<p>Phone: +63 927 348 2787</p>
-				</div>
-				<div class="col-md-4">
-					<h5>Follow Us</h5>
-					<div class="social-media-icons">
-						<a href="https://web.facebook.com/profile.php?id=61567307635803" target="_blank"><i class="fab fa-facebook-f"></i></a>
-						<a href="https://www.instagram.com/traderscafe.ph/?fbclid=IwZXh0bgNhZW0CMTAAAR1A9D2xUyyGvjgZyuEYSGsgIitZS07cTqW5fGht48DuA9S9r1Jrmfuycc0_aem_aqW-C-KPXB4JbGjLgXh-qA#" target="_blank"><i class="fab fa-instagram"></i></a>
-						<a href="https://www.tiktok.com/@traderscafe.ph?fbclid=IwZXh0bgNhZW0CMTAAAR2OASi-kF_hbCYVOmfZkKwtxU4G_kGxquYnfoC8EfPp2BejpLNarKF6FVU_aem_aryTmt2K93jRCdeFEt1mKQ" target="_blank"><i class="fab fa-tiktok"></i></a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<h5>Links</h5>
-					<ul class="list-unstyled">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Products</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-			<hr>
-			<p>&copy; 2025 Trader's Cafe. All Rights Reserved.</p>
-		</div>
-	</footer>
-	
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/bg1.png" class="d-block w-100" alt="Hero Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/bg2.png" class="d-block w-100" alt="Hero Image 2" usemap="#image-map">
+                        <map name="image-map">
+                            <area shape="rect" href="events.html" coords="680 340 830 380">
+                        </map>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/bg3.jpg" class="d-block w-100" alt="Hero Image 3">
+                    </div>
+                </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="scripts.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>     <!-- Add this for navbar animation-->
-<script>
-    AOS.init({
-        duration: 800,
-        easing: 'ease-in-out',
-        once: true,
-    });
-</script> 
-    <!-- Add this for navbar animation-->
-</body>
+                <!-- Previous Button -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"></span>
+                </button>
+
+                <!-- Next Button -->
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"></span>
+                </button>
+            </div>
+        </section>
+
+
+
+        <!-- About Section -->
+        <section id="about" class="text-center p-5">
+            <div class="container">
+                <h2>About Trader's Cafe</h2>
+                <p>Welcome to Trader's Cafe, your go-to spot for the best coffee, meals, and snacks. Experience the perfect blend of flavors in a cozy ambiance!</p>
+            </div>
+        </section>
+
+        <!-- New Products Section -->
+        <section id="new-products" class="p-5">
+            <div class="container">
+                <h2 class="text-center">New Products</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/new_product_1.jpg" class="card-img-top" alt="New Coffee Drink">
+                            <div class="card-body">
+                                <h5 class="card-title">New Coffee Blend</h5>
+                                <p class="card-text">A rich and aromatic coffee blend perfect for your mornings.</p>
+                                <a href="coffee-drinks.html" class="btn np-btn">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/new_product_2.jpg" class="card-img-top" alt="New Non-Coffee Drink">
+                            <div class="card-body">
+                                <h5 class="card-title">Refreshing Iced Tea</h5>
+                                <p class="card-text">A revitalizing iced tea with a hint of citrus. Refreshing with variations!</p>
+                                <a href="non-coffee-drinks.html" class="btn np-btn">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/new_product_3.jpg" class="card-img-top" alt="New Rice Meal">
+                            <div class="card-body">
+                                <h5 class="card-title">Spicy Chicken Pastil</h5>
+                                <p class="card-text">A delicious and hearty rice meal with a spicy kick.</p>
+                                <a href="rice-meals.html" class="btn np-btn">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Testimonials Section -->
+        <section id="testimonials" class="bg-light p-5">
+            <div class="container text-center">
+                <h2>Customer Testimonials</h2>
+                <p>What our customers are saying about us!</p>
+                <div class="table-responsive">
+                    <table class="table table-bordered testimonials-table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Review</th>
+                                <th>Rating</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Karlo</td>
+                                <td>“Best coffee in town! The ambiance is amazing.”</td>
+                                <td>⭐⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td>Jerezel</td>
+                                <td>“Love the variety of drinks and snacks. A must-visit!”</td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td>Mark Lester</td>
+                                <td>“The service is fantastic, and the coffee is always fresh!”</td>
+                                <td>⭐⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td>Ronella</td>
+                                <td>“A cozy place to relax and enjoy great food.”</td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call-to-Action Section -->
+        <section id="cta" class="text-center p-5">
+            <div class="container">
+                <h2 class="font-weight-bold">Visit Us Today!</h2>
+                <p class="lead">Enjoy handcrafted coffee, delicious meals, and a cozy ambiance at Trader’s Cafe.</p>
+                <p>📍 Find us at your favorite spot & be part of our special events!</p>
+                <a href="contact.html" class="btn btn-primary btn-lg mt-3">Get in Touch</a>
+            </div>
+        </section>
+
+
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>Contact</h5>
+                        <p>Email: traderscafe.ph@gmail.com</p>
+                        <p>Phone: +63 927 348 2787</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Follow Us</h5>
+                        <div class="social-media-icons">
+                            <a href="https://web.facebook.com/profile.php?id=61567307635803" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/traderscafe.ph/?fbclid=IwZXh0bgNhZW0CMTAAAR1A9D2xUyyGvjgZyuEYSGsgIitZS07cTqW5fGht48DuA9S9r1Jrmfuycc0_aem_aqW-C-KPXB4JbGjLgXh-qA#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/@traderscafe.ph?fbclid=IwZXh0bgNhZW0CMTAAAR2OASi-kF_hbCYVOmfZkKwtxU4G_kGxquYnfoC8EfPp2BejpLNarKF6FVU_aem_aryTmt2K93jRCdeFEt1mKQ" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="coffee-drinks.html">Products</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p>&copy; 2025 Trader's Cafe. All Rights Reserved.</p>
+            </div>
+        </footer>
+        
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>     <!-- Add this for navbar animation-->
+        <script>
+            AOS.init({
+                duration: 800,
+                easing: 'ease-in-out',
+                once: true,
+            });
+        </script> 
+
+    </body>
 </html>
