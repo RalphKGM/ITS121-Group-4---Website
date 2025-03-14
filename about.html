@@ -52,7 +52,7 @@
     <!-- Middle Part -->
      
     <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="about">
+        <div class="about" data-aos="fade-up" data-aos-delay="100">
             <h3 class="subheading" align="center">Savor the Sweetness</h3>
             <p class="main-text" align="center">
                 Welcome to Traders Cafe, where great coffee meets great conversations. We serve expertly brewed coffee and fresh baked pastries in a cozy, modern space. Whether you're here to work, unwind, or connect, Traders Cafe is your perfect spot. Come for the coffee, stay for the experience.  
@@ -60,7 +60,7 @@
                 "Where Every Sip is an Investment in Great Taste!"
             </p>
         </div>
-        <div class="image-container" align="center">
+        <div class="image-container" align="center" data-aos="fade-up" data-aos-delay="100">
             <img src="assets/snacks.jpg" alt="Snacks" align="center">
         </div>
         <div>
@@ -137,6 +137,15 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script> <!-- Add this for navbar animation-->
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+        });
+    </script>
+    <!-- Add this for navbar animation-->
 </body>
 </body>
 </html>
