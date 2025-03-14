@@ -4,6 +4,9 @@
    body {
     margin-top: 20px;
 }
+*{
+   scroll-behavior: smooth;
+}
 
 /* ======================
    LOGO STYLING
