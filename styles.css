@@ -371,3 +371,125 @@ iframe{
 .contact-form button:hover {
     background-color: #A86A2F;
 }
+
+/* ======================
+   HOME PAGE STYLES
+   ====================== */
+ #hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+#new-products {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#new-products .box {
+    height: auto;
+    max-width: 350px;
+    margin: auto;
+}
+
+#new-products .image-wrapper {
+    height: 250px;
+}
+
+#new-products h3{
+    font-size: 30px;
+    color: #774A32;
+    margin-top: 10px;
+}
+
+#new-products .content p {
+    font-size: 14px;
+    color: #555;
+}
+
+#new-products .np-btn{
+    background-color: #C98832;
+    color: white;
+}
+
+#new-products .np-btn:hover{
+    background-color: #A86A2F;
+}
+
+.carousel-control-prev, 
+.carousel-control-next {
+    width: auto;
+    background: none; 
+    border: none;
+    opacity: 0.6; 
+    transition: opacity 0.3s ease-in-out;
+    margin: 30px;
+}
+
+.carousel-control-prev:hover, 
+.carousel-control-next:hover {
+    opacity: 1; 
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    filter: invert(100%);
+    width: 30px;
+    height: 30px;
+}
+
+#testimonials {
+    background-color: #F9F5F2;
+    padding: 50px 0;
+    background: linear-gradient(135deg, #E5DAD4, #F9B862);
+}
+
+.testimonials-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials-table th, .testimonials-table td {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid white;
+    color: #774A32;
+    background: #F9F5F2;
+}
+
+.testimonials-table thead th {
+    background: #C98832;
+    color: white;
+}
+
+#cta {
+    background-color: #f8f9fa;  /* Soft gray background */
+    color: #333;  /* Dark text for readability */
+}
+
+#cta h2 {
+    color: #222;  /* Slightly darker for contrast */
+}
+
+#cta .btn-primary {
+    background-color: #C98832; /* Matches your theme */
+    border-color: #C98832;
+}
+
+#cta .btn-primary:hover {
+    background-color: #A86A2F;
+    border-color: #A86A2F
+}
