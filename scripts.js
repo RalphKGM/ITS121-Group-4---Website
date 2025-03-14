@@ -79,3 +79,25 @@ bottomNavbar.addEventListener('mouseleave', function () {
         caretIcon.classList.add('fa-caret-down');
     }, 300); // delay, change if u want it slow 
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    let myCarousel = document.querySelector("#heroCarousel");
+    let prevButton = document.querySelector(".carousel-control-prev");
+    let nextButton = document.querySelector(".carousel-control-next");
+
+    if (myCarousel) {
+        let carousel = new bootstrap.Carousel(myCarousel, {
+            interval: false,  // Stops auto-sliding for manual control
+            wrap: true,
+            touch: true      // Enable touch swipe support
+        });
+
+        prevButton.addEventListener("click", function () {
+            carousel.prev();
+        });
+
+        nextButton.addEventListener("click", function () {
+            carousel.next();
+        });
+    }
+});
