@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trader's Cafe | Coffee Drinks</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <style>
+
+        .h2 {
+            margin-bottom: 20px;
+        }
+        .event-banner {
+            display: block;
+            margin: 0 auto; /* Center the image */
+            max-width: 100%; /* Ensure it scales well */
+            height: auto; /* Adjust width */
+            border: 5px solid #8B5A2B; /* Adds a brown coffee-themed border */
+            border-radius: 10px; /* Soft rounded edges */
+            padding: 10px; /* Adds space inside the border */
+            background-color: #F5F5DC; /* Light beige background to match coffee theme */
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+        }
+        .card img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            padding: 10px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <img src="assets/logo.jpg" alt="Trader's Cafe Logo" class="logo">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Trader's Cafe</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item" id="productsMenu">
+                        <a class="nav-link">Products <i class="fas fa-caret-down" id="caretIcon"></i></a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container my-5">
+        <h2 class="text-center">Seasonal Events</h2>
+        <div class="text-center mb-4">
+            <img src="assets/IceBlackColdBrew.jpg" class="img-fluid event-banner" alt="Event Banner">
+        </div>
+        <div class="event-box text-center p-4 bg-light mb-4">
+            <p>As every year comes to a close, we at Trader's Cafe PH want to express our heartfelt thanks to YOU—our valued customers. 💛 Your support, smiles, and shared moments over coffee have made this year truly special.</p>
+            <p>To show our appreciation, we’re treating you to something cool and refreshing;</p>
+            <h5 class="text-primary">🎉 FREE Iced Black Cold Brew Coffee 🎉</h5>
+        </div>
+        
+        <h2 class="text-center mt-5">Special Promos</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="assets/SeaSaleLatte.jpg" class="card-img-top" alt="Buy 1 Free 1 Promo">
+                    <div class="card-body">
+                        <h5 class="card-title">Buy 1 Get 1 Free - Sea Salt Latte</h5>
+                        <p class="card-text">Enjoy our special Sea Salt Latte promo! Buy one for only ₱99 and get another for free. Limited time only!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="assets/SodaSeries.jpg" class="card-img-top" alt="Soda Series Promo">
+                    <div class="card-body">
+                        <h5 class="card-title">Buy 1 Get 1 - Soda Series</h5>
+                        <p class="card-text">Beat the summer heat with our Soda Series! Buy one refreshing soda for only ₱99 and get another one for free.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="assets/International Coffe Day Promo.jpg" class="card-img-top" alt="International Coffee Day Promo">
+                    <div class="card-body">
+                        <h5 class="card-title">International Coffee Day Promo</h5>
+                        <p class="card-text">Celebrate International Coffee Day with us! Get exclusive discounts and freebies on selected drinks.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="assets/GameOn.jpg" class="card-img-top" alt="Loyalty Card Promo">
+                    <div class="card-body">
+                        <h5 class="card-title">Game On!</h5>
+                        <p class="card-text">Pay for only ₱300 and enjoy 1 hour <u>FREE</u> gaming sessions for 2 players on our consoles! Take a sip and enjoy playing!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2025 Trader's Cafe. All Rights Reserved.</p>
+            <p><strong>Address:</strong> Island View St. Corner Dasma Ave., Dasmariñas, Philippines</p>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
