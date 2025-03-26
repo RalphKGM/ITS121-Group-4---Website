@@ -1,4 +1,4 @@
-View the website here: https://ralphkgm.github.io/ITS121-Group-4---Website/
+View the website here: https://ralphkgm.github.io/ITS121-Group-4-Website/
 
 Members:
 
